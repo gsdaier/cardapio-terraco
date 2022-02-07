@@ -4,8 +4,8 @@
 <p> Terraço Pizzaria its a local pizzeria in Cabo Frio - Rio de janeiro, Brazil </p>
 <p style="color: green"> Currently working for customers</p><br>
 
-<img style="width: 310px" src="img\gifhover.gif">
-<img style="width: 310px" src="img/deliverygif.gif"><br><br>
+<img style="width: 310px" src="gifhover.gif">
+<img style="width: 310px" src="deliverygif.gif"><br><br>
 
 ## Features
 
