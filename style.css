@@ -6,12 +6,11 @@
 
 nav{
     border-radius: 2px;
-    /* display: flex;
-    position: relative; */
+
 }
 .navbarcontent{
     display: flex;
-    /* position: relative; */
+
     flex-direction: row;
 }
 ul {
@@ -60,10 +59,9 @@ li a:hover:not(.active) {
     
 }
 
-/* colocar logo no meio*/
+
 .logodiv{
-    /* flex-direction: row;
-    justify-content: center; */
+
     max-width: 40%;
     position: relative;
     justify-content: center;
