@@ -44,7 +44,7 @@ li a:hover:not(.active) {
 }
 
 .maincontent{
-    background-image: url("img/images/wallpaper.jpeg");
+    background-image: url("images/wallpaper.jpeg");
     width: 100vw;
     height: 20vw;
     position: relative;
