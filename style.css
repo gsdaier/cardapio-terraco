@@ -10,7 +10,7 @@ body{
   height: 100%;
   margin: 0;
 }
-ul {
+.index {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,16 +27,16 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 13px 10px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: black;
+  background-color: rgb(175, 0, 0);
 }
 
 .active {
-  background-color: rgb(211, 176, 20);
+  background-color: rgb(175, 0, 0);
 }
 
 .maincontent{
@@ -65,8 +65,9 @@ li a:hover:not(.active) {
   width: 100%;
   display: flex;
 }
+
 .wallpaperpizza{
-  width: 100%;
+  width: 100vw;
   display: flex;
   height: 70%;
   object-fit: cover;
@@ -92,12 +93,11 @@ li a:hover:not(.active) {
     display: flex;
     justify-content: center;
   }
-
-.index{
+  .index{
   margin-top: 2vh;
   margin-bottom: 4.5vh;
+  width: 100%;
 }
-
 .containermenu{
   margin: 0;
   width: 100%;
