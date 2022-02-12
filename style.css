@@ -57,7 +57,7 @@ li a:hover:not(.active) {
 .logoimgnav{
   position: absolute;
   margin-top: 8vh;
-  max-width: 100px;
+  width: 100px;
   border-radius: 10px;
 }
 
@@ -110,7 +110,7 @@ header ul{
 }
 header ul li{
   position: relative;
-  margin: 0 13px;
+  margin: 0 14px;
 }
 
 .index{
@@ -198,16 +198,57 @@ header ul li{
   
   @media screen and (min-width: 992px) {
     .menu {
-      font-size: 16px;
+      font-size: 14px;
+      display: flex;
+      display: inline-block;
+      flex-direction: row;
+      position: relative;
+      width: 100%;
     }
   
     .menu-group {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1fr, 1fr);
     }
   
     .menu-item-image {
-      width: 125px;
-      height: 125px;
+      width: 100px;
+      height: 100px;
+    }
+    .pizzastrad{
+      display: flex;
+      position: relative;
+      justify-content: center;
+    }
+    .menu-group-heading{
+      display: flex;
+      font-size: 40px;
+    }
+    .menu-group-heading-add{
+      display: flex;
+      font-size: 40px;
     }
   }
   
+  @media only screen and (min-width: 500px) {
+    
+    .wallpaperpizza{
+      height: 200px;
+      object-fit: cover;
+      max-width: 100%;
+
+    }
+    .logoimgnav{
+      width: 120px;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+  
+    .logoimgnav{
+      width: 80px;
+    }
+  header ul li{
+    margin: 0 7px;
+
+  }
+}
