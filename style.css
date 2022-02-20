@@ -96,7 +96,8 @@ li a:hover:not(.active) {
   }
 
 header{
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   width: 100%;
   display: flex;
   top: 0;
