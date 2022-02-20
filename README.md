@@ -9,7 +9,7 @@
 <img style="width: 200px" src="qrcode_terracomenu.netlify.app.png">
 
 <div style="float:right">
-  <img style="width: 310px" src="images/gifcardapio.gif">
+  <img style="width: 310px" src="images/maingif.gif">
   <img style="width: 310px" src="images/stickygif.gif">
 </div>
 <br>
